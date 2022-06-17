@@ -66,7 +66,7 @@ const validateStep = (req, res, next) => {
     step_number
   } = req.body
   if (instructions === undefined ||
-    typeof instrcutions !== 'string' ||
+    typeof instructions !== 'string' ||
     !instructions.trim() ||
     typeof step_number !== 'number' ||
     step_number < 1
